@@ -3,7 +3,8 @@
 #include "ofMain.h"
 #include "ofxDelaunay.h"
 
-class testApp : public ofBaseApp{
+class ofApp : public ofBaseApp {
+
   public:
     void setup();
     void update();
@@ -20,4 +21,5 @@ class testApp : public ofBaseApp{
     void gotMessage(ofMessage msg);
     
     ofxDelaunay triangulation;
+
 };
